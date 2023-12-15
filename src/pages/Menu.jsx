@@ -17,6 +17,7 @@ const mapproduct =items.map((item)=>{
     key={item.id}
     id={item.id}
     desc={item.desc}
+    iframe={item.iframe} 
     />
   )
 })
